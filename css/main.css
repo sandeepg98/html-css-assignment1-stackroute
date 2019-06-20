@@ -15,7 +15,7 @@ li{
 	font-family: Arial;
 	font-weight: bold;
 	display: inline;
-	font-size: 40px;
+	font-size: 25px;
 	padding-right: 30px;
 }
 
@@ -30,7 +30,7 @@ li{
 }
 
 ul  a:hover{
-	color: black;
+	color: #0066cc;
 }
 
 .head{
@@ -73,13 +73,45 @@ ul  a:hover{
 	margin-bottom: 67px;
 }
 
-.footer{
-    height: 50px;
+footer{
+    background-color: #1a1a1a;
+    height: 200px;
+    width: 100%;
+}
+.icon{
+	color: white;
+    float:right;
+    padding-top:0px;
+    margin-top: -120px;
 }
 
-.icon{
-    float:left;
+.icon a{
+	color: white;
 }
+
+.icon a:hover{
+	color: #ff8533;
+}
+
+.ul_footer li{
+	font-size: 15px;
+	color: white;
+    display: block;
+    padding:10px;
+}
+
+.ul_footer li:hover{
+	color: #ff8533;
+	cursor: pointer;
+}
+
+#footer_container{
+    padding:0px;
+    border:none;
+    margin:0px;
+    width:100%;
+}
+
 
 .c2, .r2{
 	color: #ff8533;
